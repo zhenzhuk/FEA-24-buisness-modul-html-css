@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?r20d29');
+  src:  url('../fonts/icomoon.eot?r20d29#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?r20d29') format('truetype'),
+    url('../fonts/icomoon.woff?r20d29') format('woff'),
+    url('../fonts/icomoon.svg?r20d29#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcheveron-down:before {
+  content: "\e903";
+}
+.iconcheveron-up:before {
+  content: "\e907";
+}
+.iconclose:before {
+  content: "\e908";
+}
+.icongoogle:before {
+  content: "\e901";
+}
+.iconalign-justify:before {
+  content: "\e90a";
+}
+.iconpaperplane:before {
+  content: "\e900";
+}
+.icontwitter:before {
+  content: "\e902";
+}
+.iconfacebook:before {
+  content: "\e904";
+}
+.iconmobile:before {
+  content: "\e905";
+}
+.iconenvelope:before {
+  content: "\e906";
+}
+.iconlinkedin:before {
+  content: "\eaca";
+}
