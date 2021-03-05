@@ -7,7 +7,7 @@ const allForSlider = () => {
         <div class="consultation__img-box">
             <img src="img/${item.imgUrl}" class="consultation__img" alt="slider">
             <div class="consultation__container-title container-title">
-                <h1 class="text-change">We Providing</h1>
+                <h2>We Providing</h2>
                 <span>Social Media marketing for businesses</span>
                 <button class="consultation__btn">free consultation</button>
             </div>

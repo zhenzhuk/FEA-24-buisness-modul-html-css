@@ -79,21 +79,6 @@ input {
   flex-direction: column;
   align-items: center;
 }
-.container-title h1 {
-  font-size: 50px;
-  line-height: 1;
-  color: #f3f3f3;
-}
-@media screen and (max-width: 960px) {
-  .container-title h1 {
-    font-size: 35px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .container-title h1 {
-    font-size: 25px;
-  }
-}
 .container-title h2 {
   font-size: 40px;
   line-height: 1;
@@ -311,6 +296,21 @@ input {
   right: 0;
   bottom: 0;
   left: 0;
+}
+.consultation__container-title h2 {
+  font-size: 50px;
+  line-height: 1;
+  color: #f3f3f3;
+}
+@media screen and (max-width: 960px) {
+  .consultation__container-title h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .consultation__container-title h2 {
+    font-size: 25px;
+  }
 }
 .consultation__container-title span {
   font-size: 30px;
@@ -583,7 +583,7 @@ input {
   flex: 1 0 50%;
   background-color: #f35e59;
 }
-.our-work__column-text a {
+.our-work__column-text div {
   font-size: 40px;
 }
 .our-work__column-text i {
